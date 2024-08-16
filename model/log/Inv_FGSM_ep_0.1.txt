@@ -1,0 +1,627 @@
+Model: Inv_FGSM_ep_0.1
+base model: VGG19
+train set : train_final_v2 with len: 7191
+test set : test_final_v2 with len: 1800
+
+Explanation: Inv_FGSM_ep_0.1
+Lambda: 0.05
+Resize: 224
+
+n_epochs: 200
+batch_size: 4
+feature dim: 16
+
+num_workers: 28
+Early Stop Count: 7
+Optimizer: SGD
+Learning Rate: 0.0005
+
+FGSM Attack is applied.
+attack on -> feature
+epsilon: 0.1
+
+
+##-----Epoch 1
+Model: Inv_FGSM_ep_0.1
+base model: VGG19
+train set : train_final_v2 with len: 7191
+test set : test_final_v2 with len: 1800
+
+Explanation: Inv_FGSM_ep_0.1
+Lambda: 0.05
+Resize: 224
+
+n_epochs: 200
+batch_size: 4
+feature dim: 16
+
+num_workers: 28
+Early Stop Count: 7
+Optimizer: SGD
+Learning Rate: 0.0005
+
+FGSM Attack is applied.
+attack on -> feature
+epsilon: 0.1
+
+
+##-----Epoch 1
+Model: Inv_FGSM_ep_0.1
+base model: VGG19
+train set : train_final_v2 with len: 7191
+test set : test_final_v2 with len: 1800
+
+Explanation: Inv_FGSM_ep_0.1
+Lambda: 0.05
+Resize: 224
+
+n_epochs: 200
+batch_size: 4
+feature dim: 16
+
+num_workers: 28
+Early Stop Count: 7
+Optimizer: SGD
+Learning Rate: 0.0005
+
+FGSM Attack is applied.
+attack on -> feature
+epsilon: 0.1
+
+
+##-----Epoch 1
+Model: Inv_FGSM_ep_0.1
+base model: VGG19
+train set : exp_4_train with len: 7811
+test set : exp_4_test with len: 1180
+
+Explanation: Inv_FGSM_ep_0.1
+Lambda: 0.05
+Resize: 224
+
+n_epochs: 200
+batch_size: 4
+feature dim: 16
+
+num_workers: 28
+Early Stop Count: 7
+Optimizer: SGD
+Learning Rate: 0.0005
+
+FGSM Attack is applied.
+attack on -> feature
+epsilon: 0.1
+
+
+##-----Epoch 1
+Model: Inv_FGSM_ep_0.1
+base model: VGG19
+train set : exp_4_train with len: 7811
+test set : exp_4_test with len: 1180
+
+Explanation: Inv_FGSM_ep_0.1
+Lambda: 0.05
+Resize: 224
+
+n_epochs: 200
+batch_size: 4
+feature dim: 16
+
+num_workers: 28
+Early Stop Count: 7
+Optimizer: SGD
+Learning Rate: 0.0005
+
+FGSM Attack is applied.
+attack on -> feature
+epsilon: 0.1
+
+
+##-----Epoch 1
+Model: Inv_FGSM_ep_0.1
+base model: VGG19
+train set : exp_4_train with len: 7811
+test set : exp_4_test with len: 1180
+
+Explanation: Inv_FGSM_ep_0.1
+Lambda: 0.05
+Resize: 224
+
+n_epochs: 200
+batch_size: 4
+feature dim: 16
+
+num_workers: 28
+Early Stop Count: 7
+Optimizer: SGD
+Learning Rate: 0.0005
+
+FGSM Attack is applied.
+attack on -> feature
+epsilon: 0.1
+
+
+##-----Epoch 1
+Model: Inv_FGSM_ep_0.1
+base model: VGG19
+train set : exp_4_train with len: 7811
+test set : exp_4_test with len: 1180
+
+Explanation: Inv_FGSM_ep_0.1
+Lambda: 0.05
+Resize: 224
+
+n_epochs: 200
+batch_size: 4
+feature dim: 16
+
+num_workers: 28
+Early Stop Count: 7
+Optimizer: SGD
+Learning Rate: 0.0005
+
+FGSM Attack is applied.
+attack on -> feature
+epsilon: 0.1
+
+
+##-----Epoch 1
+Model: Inv_FGSM_ep_0.1
+base model: VGG19
+train set : exp_4_train with len: 7811
+test set : exp_4_test with len: 1180
+
+Explanation: Inv_FGSM_ep_0.1
+Lambda: 0.05
+Resize: 224
+
+n_epochs: 200
+batch_size: 4
+feature dim: 16
+
+num_workers: 28
+Early Stop Count: 7
+Optimizer: SGD
+Learning Rate: 0.0005
+
+FGSM Attack is applied.
+attack on -> feature
+epsilon: 0.1
+
+
+##-----Epoch 1
+Model: Inv_FGSM_ep_0.1
+base model: VGG19
+train set : exp_4_train with len: 7811
+test set : exp_4_test with len: 1180
+
+Explanation: Inv_FGSM_ep_0.1
+Lambda: 0.05
+Resize: 224
+
+n_epochs: 200
+batch_size: 4
+feature dim: 16
+
+num_workers: 28
+Early Stop Count: 7
+Optimizer: SGD
+Learning Rate: 0.0005
+
+FGSM Attack is applied.
+attack on -> feature
+epsilon: 0.1
+
+
+##-----Epoch 1
+
+        pred 0  pred 1
+true 0 [ 6553 , 1185 ]
+true 1 [ 21 , 52 ]
+
+[+] Train Loss: 0.1706, Tr. Normal Recon Loss: 0.1672, Tr. Anomaly Recon Loss: 0.0626, Tr. Ori_an_recon_loss: 0.2084
+[+] Ta. AUC: 0.8328, Ta. AUPRC: 0.1075, Ta. FPR: 0.153, Ta. FNR: 0.288
+
+[+] Tr. FGSM_recon_loss: 0.2015
+
+
+        pred 0  pred 1
+true 0 [ 497 , 93 ]
+true 1 [ 432 , 158 ]
+
+[+] Validation Loss: 0.2436, Va. Normal Recon Loss: 0.1450, Va. Anomaly Recon Loss: 0.3393, Va. Ori_an_recon_loss: 0.1475
+[+] Va. AUC: 0.5354, Va. AUPRC: 0.5863, Va. FPR: 0.158, Va. FNR: 0.732
+
+---- Best Train Loss ----
+
+---- Best Val AUC
+
+---- Best Val AUPRC
+
+Running Time: 38m 3s
+
+Early_stop_count: 0
+
+
+
+
+##-----Epoch 2
+
+        pred 0  pred 1
+true 0 [ 6649 , 1089 ]
+true 1 [ 10 , 63 ]
+
+[+] Train Loss: 0.1651, Tr. Normal Recon Loss: 0.1624, Tr. Anomaly Recon Loss: 0.0628, Tr. Ori_an_recon_loss: 0.2101
+[+] Ta. AUC: 0.9171, Ta. AUPRC: 0.2947, Ta. FPR: 0.141, Ta. FNR: 0.137
+
+[+] Tr. FGSM_recon_loss: 0.1989
+
+
+        pred 0  pred 1
+true 0 [ 547 , 43 ]
+true 1 [ 437 , 153 ]
+
+[+] Validation Loss: 0.2371, Va. Normal Recon Loss: 0.1501, Va. Anomaly Recon Loss: 0.3221, Va. Ori_an_recon_loss: 0.1556
+[+] Va. AUC: 0.5938, Va. AUPRC: 0.6476, Va. FPR: 0.073, Va. FNR: 0.741
+
+---- Best Train Loss ----
+
+---- Best Val AUC
+
+---- Best Val AUPRC
+
+Running Time: 37m 25s
+
+Early_stop_count: 0
+
+
+
+
+##-----Epoch 3
+
+        pred 0  pred 1
+true 0 [ 6922 , 816 ]
+true 1 [ 5 , 68 ]
+
+[+] Train Loss: 0.1642, Tr. Normal Recon Loss: 0.1619, Tr. Anomaly Recon Loss: 0.0594, Tr. Ori_an_recon_loss: 0.2213
+[+] Ta. AUC: 0.9677, Ta. AUPRC: 0.3986, Ta. FPR: 0.105, Ta. FNR: 0.068
+
+[+] Tr. FGSM_recon_loss: 0.1986
+
+
+        pred 0  pred 1
+true 0 [ 522 , 68 ]
+true 1 [ 379 , 211 ]
+
+[+] Validation Loss: 0.2346, Va. Normal Recon Loss: 0.1526, Va. Anomaly Recon Loss: 0.3148, Va. Ori_an_recon_loss: 0.1596
+[+] Va. AUC: 0.6041, Va. AUPRC: 0.6673, Va. FPR: 0.115, Va. FNR: 0.642
+
+---- Best Train Loss ----
+
+---- Best Val AUC
+
+---- Best Val AUPRC
+
+Running Time: 37m 36s
+
+Early_stop_count: 0
+
+
+
+
+##-----Epoch 4
+
+        pred 0  pred 1
+true 0 [ 7358 , 380 ]
+true 1 [ 9 , 64 ]
+
+[+] Train Loss: 0.1638, Tr. Normal Recon Loss: 0.1616, Tr. Anomaly Recon Loss: 0.0565, Tr. Ori_an_recon_loss: 0.2278
+[+] Ta. AUC: 0.9635, Ta. AUPRC: 0.4900, Ta. FPR: 0.049, Ta. FNR: 0.123
+
+[+] Tr. FGSM_recon_loss: 0.1985
+
+
+        pred 0  pred 1
+true 0 [ 542 , 48 ]
+true 1 [ 455 , 135 ]
+
+[+] Validation Loss: 0.2409, Va. Normal Recon Loss: 0.1480, Va. Anomaly Recon Loss: 0.3321, Va. Ori_an_recon_loss: 0.1507
+[+] Va. AUC: 0.5229, Va. AUPRC: 0.6005, Va. FPR: 0.081, Va. FNR: 0.771
+
+---- Best Train Loss ----
+
+Running Time: 37m 27s
+
+Early_stop_count: 1
+
+
+
+
+##-----Epoch 5
+
+        pred 0  pred 1
+true 0 [ 7525 , 213 ]
+true 1 [ 11 , 62 ]
+
+[+] Train Loss: 0.1636, Tr. Normal Recon Loss: 0.1614, Tr. Anomaly Recon Loss: 0.0569, Tr. Ori_an_recon_loss: 0.2296
+[+] Ta. AUC: 0.9606, Ta. AUPRC: 0.5182, Ta. FPR: 0.028, Ta. FNR: 0.151
+
+[+] Tr. FGSM_recon_loss: 0.1984
+
+
+        pred 0  pred 1
+true 0 [ 560 , 30 ]
+true 1 [ 385 , 205 ]
+
+[+] Validation Loss: 0.2323, Va. Normal Recon Loss: 0.1517, Va. Anomaly Recon Loss: 0.3114, Va. Ori_an_recon_loss: 0.1629
+[+] Va. AUC: 0.6124, Va. AUPRC: 0.6856, Va. FPR: 0.051, Va. FNR: 0.653
+
+---- Best Train Loss ----
+
+---- Best Val AUC
+
+---- Best Val AUPRC
+
+Running Time: 37m 38s
+
+Early_stop_count: 0
+
+
+
+
+##-----Epoch 6
+
+        pred 0  pred 1
+true 0 [ 7478 , 260 ]
+true 1 [ 9 , 64 ]
+
+[+] Train Loss: 0.1633, Tr. Normal Recon Loss: 0.1613, Tr. Anomaly Recon Loss: 0.0531, Tr. Ori_an_recon_loss: 0.2466
+[+] Ta. AUC: 0.9669, Ta. AUPRC: 0.5599, Ta. FPR: 0.034, Ta. FNR: 0.123
+
+[+] Tr. FGSM_recon_loss: 0.1985
+
+
+        pred 0  pred 1
+true 0 [ 509 , 81 ]
+true 1 [ 394 , 196 ]
+
+[+] Validation Loss: 0.2359, Va. Normal Recon Loss: 0.1551, Va. Anomaly Recon Loss: 0.3150, Va. Ori_an_recon_loss: 0.1590
+[+] Va. AUC: 0.5622, Va. AUPRC: 0.6323, Va. FPR: 0.137, Va. FNR: 0.668
+
+---- Best Train Loss ----
+
+Running Time: 37m 29s
+
+Early_stop_count: 1
+
+
+
+
+##-----Epoch 7
+
+        pred 0  pred 1
+true 0 [ 7400 , 338 ]
+true 1 [ 6 , 67 ]
+
+[+] Train Loss: 0.1633, Tr. Normal Recon Loss: 0.1612, Tr. Anomaly Recon Loss: 0.0563, Tr. Ori_an_recon_loss: 0.2396
+[+] Ta. AUC: 0.9767, Ta. AUPRC: 0.6046, Ta. FPR: 0.044, Ta. FNR: 0.082
+
+[+] Tr. FGSM_recon_loss: 0.1984
+
+
+        pred 0  pred 1
+true 0 [ 547 , 43 ]
+true 1 [ 367 , 223 ]
+
+[+] Validation Loss: 0.2272, Va. Normal Recon Loss: 0.1569, Va. Anomaly Recon Loss: 0.2960, Va. Ori_an_recon_loss: 0.1728
+[+] Va. AUC: 0.6597, Va. AUPRC: 0.7169, Va. FPR: 0.073, Va. FNR: 0.622
+
+---- Best Train Loss ----
+
+---- Best Val AUC
+
+---- Best Val AUPRC
+
+Running Time: 37m 48s
+
+Early_stop_count: 0
+
+
+
+
+##-----Epoch 8
+
+        pred 0  pred 1
+true 0 [ 7334 , 404 ]
+true 1 [ 7 , 66 ]
+
+[+] Train Loss: 0.1632, Tr. Normal Recon Loss: 0.1612, Tr. Anomaly Recon Loss: 0.0536, Tr. Ori_an_recon_loss: 0.2486
+[+] Ta. AUC: 0.9565, Ta. AUPRC: 0.5522, Ta. FPR: 0.052, Ta. FNR: 0.096
+
+[+] Tr. FGSM_recon_loss: 0.1984
+
+
+        pred 0  pred 1
+true 0 [ 524 , 66 ]
+true 1 [ 392 , 198 ]
+
+[+] Validation Loss: 0.2333, Va. Normal Recon Loss: 0.1569, Va. Anomaly Recon Loss: 0.3080, Va. Ori_an_recon_loss: 0.1636
+[+] Va. AUC: 0.5698, Va. AUPRC: 0.6516, Va. FPR: 0.112, Va. FNR: 0.664
+
+---- Best Train Loss ----
+
+Running Time: 37m 37s
+
+Early_stop_count: 1
+
+
+
+
+##-----Epoch 9
+
+        pred 0  pred 1
+true 0 [ 7446 , 292 ]
+true 1 [ 7 , 66 ]
+
+[+] Train Loss: 0.1630, Tr. Normal Recon Loss: 0.1610, Tr. Anomaly Recon Loss: 0.0520, Tr. Ori_an_recon_loss: 0.2513
+[+] Ta. AUC: 0.9761, Ta. AUPRC: 0.6323, Ta. FPR: 0.038, Ta. FNR: 0.096
+
+[+] Tr. FGSM_recon_loss: 0.1984
+
+
+        pred 0  pred 1
+true 0 [ 552 , 38 ]
+true 1 [ 404 , 186 ]
+
+[+] Validation Loss: 0.2303, Va. Normal Recon Loss: 0.1576, Va. Anomaly Recon Loss: 0.3014, Va. Ori_an_recon_loss: 0.1680
+[+] Va. AUC: 0.6107, Va. AUPRC: 0.6788, Va. FPR: 0.064, Va. FNR: 0.685
+
+---- Best Train Loss ----
+
+Running Time: 37m 44s
+
+Early_stop_count: 2
+
+
+
+
+##-----Epoch 10
+
+        pred 0  pred 1
+true 0 [ 7525 , 213 ]
+true 1 [ 7 , 66 ]
+
+[+] Train Loss: 0.1629, Tr. Normal Recon Loss: 0.1610, Tr. Anomaly Recon Loss: 0.0540, Tr. Ori_an_recon_loss: 0.2544
+[+] Ta. AUC: 0.9815, Ta. AUPRC: 0.6279, Ta. FPR: 0.028, Ta. FNR: 0.096
+
+[+] Tr. FGSM_recon_loss: 0.1984
+
+
+        pred 0  pred 1
+true 0 [ 496 , 94 ]
+true 1 [ 319 , 271 ]
+
+[+] Validation Loss: 0.2242, Va. Normal Recon Loss: 0.1665, Va. Anomaly Recon Loss: 0.2804, Va. Ori_an_recon_loss: 0.1822
+[+] Va. AUC: 0.6470, Va. AUPRC: 0.7073, Va. FPR: 0.159, Va. FNR: 0.541
+
+---- Best Train Loss ----
+
+Running Time: 37m 4s
+
+Early_stop_count: 3
+
+
+
+
+##-----Epoch 11
+
+        pred 0  pred 1
+true 0 [ 7394 , 344 ]
+true 1 [ 5 , 68 ]
+
+[+] Train Loss: 0.1629, Tr. Normal Recon Loss: 0.1610, Tr. Anomaly Recon Loss: 0.0510, Tr. Ori_an_recon_loss: 0.2651
+[+] Ta. AUC: 0.9847, Ta. AUPRC: 0.6163, Ta. FPR: 0.044, Ta. FNR: 0.068
+
+[+] Tr. FGSM_recon_loss: 0.1984
+
+
+        pred 0  pred 1
+true 0 [ 506 , 84 ]
+true 1 [ 407 , 183 ]
+
+[+] Validation Loss: 0.2377, Va. Normal Recon Loss: 0.1518, Va. Anomaly Recon Loss: 0.3219, Va. Ori_an_recon_loss: 0.1562
+[+] Va. AUC: 0.5160, Va. AUPRC: 0.6091, Va. FPR: 0.142, Va. FNR: 0.690
+
+---- Best Train Loss ----
+
+Running Time: 37m 5s
+
+Early_stop_count: 4
+
+
+
+
+##-----Epoch 12
+
+        pred 0  pred 1
+true 0 [ 7202 , 536 ]
+true 1 [ 5 , 68 ]
+
+[+] Train Loss: 0.1628, Tr. Normal Recon Loss: 0.1609, Tr. Anomaly Recon Loss: 0.0508, Tr. Ori_an_recon_loss: 0.2674
+[+] Ta. AUC: 0.9781, Ta. AUPRC: 0.6260, Ta. FPR: 0.069, Ta. FNR: 0.068
+
+[+] Tr. FGSM_recon_loss: 0.1985
+
+
+        pred 0  pred 1
+true 0 [ 507 , 83 ]
+true 1 [ 358 , 232 ]
+
+[+] Validation Loss: 0.2304, Va. Normal Recon Loss: 0.1579, Va. Anomaly Recon Loss: 0.3013, Va. Ori_an_recon_loss: 0.1679
+[+] Va. AUC: 0.6139, Va. AUPRC: 0.6837, Va. FPR: 0.141, Va. FNR: 0.607
+
+---- Best Train Loss ----
+
+Running Time: 37m 13s
+
+Early_stop_count: 5
+
+
+
+
+##-----Epoch 13
+
+        pred 0  pred 1
+true 0 [ 7468 , 270 ]
+true 1 [ 9 , 64 ]
+
+[+] Train Loss: 0.1629, Tr. Normal Recon Loss: 0.1609, Tr. Anomaly Recon Loss: 0.0523, Tr. Ori_an_recon_loss: 0.2639
+[+] Ta. AUC: 0.9738, Ta. AUPRC: 0.6254, Ta. FPR: 0.035, Ta. FNR: 0.123
+
+[+] Tr. FGSM_recon_loss: 0.1984
+
+
+        pred 0  pred 1
+true 0 [ 562 , 28 ]
+true 1 [ 460 , 130 ]
+
+[+] Validation Loss: 0.2359, Va. Normal Recon Loss: 0.1544, Va. Anomaly Recon Loss: 0.3158, Va. Ori_an_recon_loss: 0.1592
+[+] Va. AUC: 0.5440, Va. AUPRC: 0.6246, Va. FPR: 0.047, Va. FNR: 0.780
+
+Running Time: 36m 48s
+
+Early_stop_count: 6
+
+
+
+
+##-----Epoch 14
+
+        pred 0  pred 1
+true 0 [ 7376 , 362 ]
+true 1 [ 6 , 67 ]
+
+[+] Train Loss: 0.1627, Tr. Normal Recon Loss: 0.1608, Tr. Anomaly Recon Loss: 0.0538, Tr. Ori_an_recon_loss: 0.2661
+[+] Ta. AUC: 0.9766, Ta. AUPRC: 0.6470, Ta. FPR: 0.047, Ta. FNR: 0.082
+
+[+] Tr. FGSM_recon_loss: 0.1984
+
+
+        pred 0  pred 1
+true 0 [ 559 , 31 ]
+true 1 [ 408 , 182 ]
+
+[+] Validation Loss: 0.2306, Va. Normal Recon Loss: 0.1544, Va. Anomaly Recon Loss: 0.3053, Va. Ori_an_recon_loss: 0.1675
+[+] Va. AUC: 0.6359, Va. AUPRC: 0.6934, Va. FPR: 0.053, Va. FNR: 0.692
+
+---- Best Train Loss ----
+
+Running Time: 36m 44s
+
+Early_stop_count: 7
+
+
+
+Early Stopped because Validation AUC or AUPRC is not increasing for 7 epochs
+
+Total Running Time: 523m 46s
